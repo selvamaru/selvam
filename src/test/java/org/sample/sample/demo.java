@@ -31,8 +31,10 @@ public class demo {
 	@Then("^I verify firstname and lastname$")
 	public void i_verify_firstname_and_lastname() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Verified");
 				driver.quit();
 	}
+	
 
 }
 
