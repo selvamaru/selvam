@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\java\\demoqa.feature", glue = { "org.sample.sample" })
+@CucumberOptions(features = "src\\test\\java\\demoqa.feature", glue = { "stepdefenition" })
 
 
 public class Testrunner {
